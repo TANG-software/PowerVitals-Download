@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Download PowerVitals</title>
+<meta name="theme-color" content="#1A1A1A" />
+<style>
+  :root{--bg:#1A1A1A;--card:#262626;--orange:#FF6F00;--green:#00E676;--txt:#BDBDBD;--dim:#757575;--faint:#616161;--line:#3D3D3D}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg)}
+  body{color:var(--txt);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+       min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+  .card{background:var(--card);max-width:460px;width:100%;padding:28px;text-align:center;border-top:4px solid var(--orange)}
+  .bolt{font-size:52px;line-height:1;margin-bottom:6px}
+  h1{color:var(--orange);font-size:30px;margin:0 0 4px;letter-spacing:1px}
+  .unit{color:var(--dim);font-size:10px;letter-spacing:3px;margin-bottom:20px}
+  p{color:var(--txt);font-size:13px;line-height:1.6;margin:0 0 20px}
+  .btn{display:block;background:var(--orange);color:#000;font-weight:800;text-decoration:none;
+       padding:18px;font-size:17px;letter-spacing:.5px;margin:0 0 10px}
+  .btn:active{transform:translateY(1px)}
+  .meta{color:var(--faint);font-size:11px;margin-bottom:22px}
+  .steps{text-align:left;background:#1A1A1A;padding:14px;font-size:12px;line-height:1.7;color:var(--dim)}
+  .steps b{color:var(--green)}
+  .steps ol{margin:6px 0 0;padding-left:18px}
+  .note{color:var(--faint);font-size:10px;margin-top:18px;line-height:1.6}
+  .ad{border:1px dashed var(--line);padding:14px;margin:18px 0 0;color:var(--faint);font-size:11px}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="bolt">⚡</div>
+    <h1>POWERVITALS</h1>
+    <div class="unit">BATTERY DIAGNOSTIC UNIT</div>
+
+    <p>Live battery health, charging power, voltage, current and temperature —
+       straight from your device.</p>
+
+    <!-- The APK file sits next to this page in the repo -->
+    <a class="btn" href="PowerVitals.apk" download>⬇ Download APK</a>
+    <div class="meta">Android 7.0+ · ~6 MB · Free</div>
+
+    <div class="steps">
+      <b>How to install</b>
+      <ol>
+        <li>Tap <b>Download APK</b> above.</li>
+        <li>Open the downloaded file.</li>
+        <li>If asked, allow "Install unknown apps" for your browser.</li>
+        <li>Tap <b>Install</b>, then <b>Open</b>.</li>
+      </ol>
+    </div>
+
+    <!-- AD SLOT: paste your ad code here -->
+    <div class="ad">Advertisement</div>
+
+    <div class="note">
+      This app reads your battery sensors and shows a banner ad.<br>
+      Only install it if you trust the source.
+    </div>
+  </div>
+</body>
+</html>
